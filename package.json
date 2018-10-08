@@ -1,0 +1,19 @@
+{
+  "name": "koalearn",
+  "version": "1.0.0",
+  "description": "Node Koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngsteel/jl_koa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngsteel/jl_koa/issues"
+  },
+  "homepage": "https://github.com/ngsteel/jl_koa#readme"
+}
