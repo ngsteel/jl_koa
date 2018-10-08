@@ -3,7 +3,44 @@
 <body>
 <h1>用户： <%=cname%></h1>
 <h3>id： <%=id%></h3>
+
+
+<form action="/users/88" method="get">
+    <input type="submit">
+</form>
+users/9999
 <script type="text/javascript">
+
+    function asyncFunction1(){
+        let promise = new Promise((resolve, reject) => {
+            setTimeout(()=>{
+                console.log('1')
+                resolve('ML-001');
+            }, 500);
+        });
+        return promise;
+    }
+
+    function asyncFunction2(){
+        let promise = new Promise((resolve, reject) => {
+            setTimeout(()=>{
+                console.log('2')
+                resolve('ML-002');
+            });
+        }, 500);
+        return promise;
+    }
+
+
+    asyncFunction1().then((data) => {
+        console.log(data);
+        return asyncFunction2();
+    }).then((data) => {
+        console.log(data);
+    });
+
+
+
 </script>
 </body>
 
