@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/ngsteel/jl_koa/issues"
   },
-  "homepage": "https://github.com/ngsteel/jl_koa#readme"
+  "homepage": "https://github.com/ngsteel/jl_koa#readme",
+  "dependencies": {
+    "art-template": "^4.13.1",
+    "koa": "^2.5.3",
+    "koa-art-template": "^1.1.1",
+    "koa-router": "^7.4.0"
+  }
 }
